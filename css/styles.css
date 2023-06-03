@@ -5894,8 +5894,8 @@ textarea.form-control-lg {
 }
 
 .logo {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: auto;
   margin-right: 10px;
 }
 
@@ -5907,6 +5907,20 @@ textarea.form-control-lg {
   width: 300px; /* Ubah ukuran gambar sesuai kebutuhan 200px */
   height: auto; /* Sesuaikan rasio aspek gambar */
   margin-right: 10px; /* Atur jarak antara gambar dengan teks */
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.sertifikat:hover {
+  transform: scale(1.12);
+}
+
+.img-fluid {
+  transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.11);
 }
 
 .project-container {
@@ -5920,6 +5934,12 @@ textarea.form-control-lg {
   width: 450px; /* Ubah ukuran sesuai kebutuhan Anda */
   height: auto;
   margin-bottom: 10px; /* Atur jarak antara gambar dan teks */
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.12);
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
