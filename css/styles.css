@@ -571,6 +571,7 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  margin-left: 20px;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -5889,6 +5890,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   margin-left: 20px;
+  gap: 20px;
 }
 
 .logo {
@@ -5902,7 +5904,7 @@ textarea.form-control-lg {
 }
 
 .sertifikat {
-  width: 400px; /* Ubah ukuran gambar sesuai kebutuhan 200px */
+  width: 300px; /* Ubah ukuran gambar sesuai kebutuhan 200px */
   height: auto; /* Sesuaikan rasio aspek gambar */
   margin-right: 10px; /* Atur jarak antara gambar dengan teks */
 }
