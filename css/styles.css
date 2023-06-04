@@ -5931,15 +5931,55 @@ textarea.form-control-lg {
 }
 
 .project {
-  width: 450px; /* Ubah ukuran sesuai kebutuhan Anda */
+  width: 250px; /* Ubah ukuran sesuai kebutuhan Anda */
   height: auto;
   margin-bottom: 10px; /* Atur jarak antara gambar dan teks */
   box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
+  border-radius: 10px;
 }
 
 .project:hover {
-  transform: scale(1.12);
+  transform: scale(1.07);
+}
+
+.projectkot {
+  width: 250px; /* Ubah ukuran sesuai kebutuhan Anda */
+  height: auto;
+  margin-bottom: 10px; /* Atur jarak antara gambar dan teks */
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  border-radius: 35px;
+}
+
+.projectkot:hover {
+  transform: scale(1.07);
+}
+
+.projectj {
+  width: 800px; /* Ubah ukuran sesuai kebutuhan Anda */
+  height: auto;
+  margin-bottom: 10px; /* Atur jarak antara gambar dan teks */
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.projectj:hover {
+  transform: scale(1.07);
+}
+
+.projecth {
+  width: 400px; /* Ubah ukuran sesuai kebutuhan Anda */
+  height: auto;
+  margin-bottom: 10px; /* Atur jarak antara gambar dan teks */
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.projecth:hover {
+  transform: scale(1.07);
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
